@@ -23,8 +23,8 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "js": "node src/index.js",
-    "ts": "node --loader ts-node/esm src/index.ts",
+    "js": "node",
+    "ts": "node --loader ts-node/esm",
     "test": "jest"
   },
   "repository": {
